@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" onload="set()">
+    <center>
+        <h1>My Story</h1>
+        <p>
+            Ini website buat kamu kalo ada masalah <br> 
+            atau ada cerita dan kamu tidak mau ada orang <br>
+            yang tau ceritamu kamu bisa cerita disini <br>
+            Selain cerita di sini kamu bisa cerita ke Allah <br>
+            Dia tahu kamu ada masalah tapi kamu tidak cerita <br>
+            maka dia tidak ingin membantumu menyelesaikan masalahmu <br>
+            Capek boleh, nyerah jangan!!<br> 
+            kan masih 17 tahun <br>
+            SEMANGATTT DANISSS!!!!
+        </p>
+        <form action="">
+            <textarea id="input" cols="30" rows="10" placeholder="Tulis apapun yang ingin diceritakan disini"></textarea><br>
+            <button  onclick="simpan()" type="button">Simpan</button>
+            <button type="button" onclick="lihat()">Lihat Cerita</button><br><br>
+            <input id="warna" type="color" oninput="ganti()">
+        </form>
+        <div id="hasil"></div>
+    </center>
+    <script src="app.js"></script>
+</body>
+</html>
